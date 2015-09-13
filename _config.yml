@@ -1,8 +1,45 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Amory Meltzer's blog
 locale:           en_US
-url:
+url:		  
+//url:		  http://amorymeltzer.github.io
+
+
+# Site owner
+owner:
+  name: Amory Meltzer
+  avatar: amory-st.jpg
+  bio: "Immunogeneticist.  Graduate student.
+  Biology, politics, data, and law."
+  email: Amorymeltzer@gmail.com
+  disqus-shortname:
+  twitter: Amorymeltzer
+  //facebook: Amorymeltzer
+  google:
+    //plus: Amorymeltzer
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  github: Amorymeltzer
+  linkedin: Amorymeltzer
+  stackoverflow: #123456/username
+  biose: 4101/Amory
+  enwiki: Amorymeltzer
+  ycombinator: Amorymeltzer
+  //slashdot: Amorymeltzer
+  goodreads: Amorymeltzer
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  flickr: #username
+  codepen: #username
 
 
 # Jekyll configuration
@@ -24,38 +61,5 @@ kramdown:
   use_coderay: false
 
 
-# Site owner
-owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email:
-  disqus-shortname:
-  twitter: #username
-  facebook: #username
-  google:
-    plus: #username
-    analytics:
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
-  github: #username
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
-  xing: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
-  codepen: #username
-
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "private/", "CNAME"]
